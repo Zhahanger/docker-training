@@ -7,4 +7,4 @@ COPY . /usr/src/app/
 
 EXPOSE 80
 
-CMD ["yarn","start"]
+CMD ["node","server.js"]
